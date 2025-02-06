@@ -3,9 +3,11 @@ Security Listener is a Python based Scanner that analyzes security misconfigurat
 
 
 # main-features
-DNS Bruteforcer: discover subdomains of an main web application - passive or aggressive scanning 
-DNS analyzer: see DNS data based on public informations and enumerate possible vulnerabilities (like DNS poisoning and zone transfer)
-HTTP Headers: enumerate which HTTP Headers are activated on the web application server
+
+    DNS Bruteforcer: discover subdomains of an main web application - passive or aggressive scanning 
+    DNS analyzer: see DNS data based on public informations and enumerate possible vulnerabilities (like DNS poisoning and zone transfer)
+    HTTP Headers: enumerate which HTTP Headers are activated on the web application server
+    Vulnerability Scanner: find possible vulnerable points at your web application
 
 
 # vulnerability-enum
