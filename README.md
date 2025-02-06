@@ -12,6 +12,7 @@ Security Listener is a Python based Scanner that analyzes security misconfigurat
 
 # vulnerability-enum
 Security Listener has the power to enumerate the following vulnerabilities:
+  
   Cross-site Scripting (XSS):
   
     1. Reflected XSS
