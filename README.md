@@ -3,3 +3,27 @@ Security Listener is a Python based Scanner that analyzes security misconfigurat
 
 
 # main-features
+DNS Bruteforcer: discover subdomains of an main web application - passive or aggressive scanning 
+DNS analyzer: see DNS data based on public informations and enumerate possible vulnerabilities (like DNS poisoning and zone transfer)
+HTTP Headers: enumerate which HTTP Headers are activated on the web application server
+
+
+#vulnerability-enum
+Security Listener has the power to enumerate the following vulnerabilities:
+  Cross-site Scripting (XSS)
+    - Reflected XSS
+    - Stored XSS
+    - The script also has DOM-Mining function, which attacks DOM parameters and points to the user where are some injection points.
+    
+  SQL Injection:
+    - In-band SQL Injection
+      1. Error-based SQLi
+      2. Union-based SQLi
+    
+    - Blind SQLi
+      1. Boolean-based SQLi
+      2. Time-based SQLi
+    
+  Directory Enumeration:
+    - Dir Enumeration
+    - Path Traversal validation
