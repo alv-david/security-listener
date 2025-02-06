@@ -10,12 +10,14 @@ HTTP Headers: enumerate which HTTP Headers are activated on the web application 
 
 #vulnerability-enum
 Security Listener has the power to enumerate the following vulnerabilities:
-  Cross-site Scripting (XSS)
+  Cross-site Scripting (XSS):
+  
     - Reflected XSS
     - Stored XSS
     - The script also has DOM-Mining function, which attacks DOM parameters and points to the user where are some injection points.
     
   SQL Injection:
+  
     - In-band SQL Injection
       1. Error-based SQLi
       2. Union-based SQLi
@@ -25,5 +27,6 @@ Security Listener has the power to enumerate the following vulnerabilities:
       2. Time-based SQLi
     
   Directory Enumeration:
+  
     - Dir Enumeration
     - Path Traversal validation
